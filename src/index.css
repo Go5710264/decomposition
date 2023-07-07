@@ -67,3 +67,49 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
+/* */
+
+.card-news-list{
+  list-style-type: none;
+}
+
+.card-news-exchange-article{
+  display: flex;
+  justify-content: space-around;
+
+  width: 100%;
+}
+
+.search-arrow-wrapper{
+  width: 730px;
+  margin-bottom: 10px;
+}
+
+.search-arrow-navigation{
+  display: flex;
+  justify-content: space-between;
+
+  list-style-type: none;
+
+  padding: 0;
+}
+
+.search-arrow-input{
+  box-sizing: border-box;
+  width: 90%;
+}
+
+.search-arrow-button{
+  box-sizing: border-box;
+  
+  width: 10%;
+}
+
+.search-random-query{
+  text-align: start;
+}
+
+.advertising-banner{
+  width: 730px;
+}

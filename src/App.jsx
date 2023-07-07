@@ -1,11 +1,11 @@
 import './App.css'
-import CardNewsWrapper from './components/CardNewsWrapper';
+import Content from './components/Content'
 
 function App() {
 
   return (
     <>
-      <CardNewsWrapper />
+      <Content/>
     </>
   )
 }
