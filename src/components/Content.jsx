@@ -1,7 +1,9 @@
 import AdvertisingBanner from './AdvertisingBanner'
 import CardNewsWrapper from "./CardNews/CardNewsWrapper";
 import SearchArrowWrapper from "./SearchArrow/SearchArrowWrapper";
-// import banner from '../../public/the-fast-and-the-furious.png'
+import WidgetWrapper from './Widgets/WidgetWrapper'
+
+const imgFeomServer = '../../public/the-fast-and-the-furious.png'
 
 const Content = () => {
     return (
@@ -9,8 +11,9 @@ const Content = () => {
             <CardNewsWrapper />
             <SearchArrowWrapper/>
             <AdvertisingBanner>
-                <img src="../../public/the-fast-and-the-furious.png" />    
+                <img src={imgFeomServer} />    
             </AdvertisingBanner>
+            <WidgetWrapper />
         </>
     )
 }
