@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types';
 const WeatherWidget = ( {serverResponse} ) => {
     console.log(serverResponse)
     
@@ -10,6 +11,11 @@ const WeatherWidget = ( {serverResponse} ) => {
             </div>
         </article>       
     )
+}
+
+
+WeatherWidget.propTypes = {
+    serverResponse: PropTypes.object
 }
 
 export default WeatherWidget;

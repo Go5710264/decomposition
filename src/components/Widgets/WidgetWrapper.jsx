@@ -8,7 +8,7 @@ const currentWeather = '+26';
 // }
 
 const WidgetWrapper = () => {
-    const [forecast, setChange] = useState({
+    const [forecast] = useState({
         evening: '+23',
         morning: '+22'
     })
