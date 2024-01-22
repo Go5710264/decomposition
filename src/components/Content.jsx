@@ -3,7 +3,7 @@ import CardNewsWrapper from "./CardNews/CardNewsWrapper";
 import SearchArrowWrapper from "./SearchArrow/SearchArrowWrapper";
 import WidgetWrapper from './Widgets/WidgetWrapper'
 
-const imgFeomServer = '../../public/the-fast-and-the-furious.png'
+const imgFeomServer = './public/the-fast-and-the-furious.png'
 
 const Content = () => {
     return (
